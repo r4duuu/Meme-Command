@@ -21,35 +21,29 @@ First, clone the repository:
 ```bash
 git clone https://github.com/username/repo-name.git
 cd repo-name
+```
 
 Then install dependencies:
 
+```bash
 npm install
+```
 
 After that, create a .env file in the root folder and add:
 
+```bash
 GIPHY_KEY=YOUR_GIPHY_API_KEY
 DISCORD_TOKEN=YOUR_BOT_TOKEN
+```
 
-To get your GIPHY API key, go to https://developers.giphy.com/
-, create an app, and copy your key.
+To get your GIPHY API key, go to https://developers.giphy.com/ , create an app, and copy your key.
 
 Finally, start the bot:
-
+```bash
 node index.js
+```
 
 or if you use nodemon:
-
+```bash
 nodemon index.js
-
-🔐 Required Discord Permissions:
-
-Send Messages
-Embed Links
-Use Slash Commands
-
-🧠 Tech Stack:
-Node.js, discord.js, GIPHY API
-
-⚠️ Note:
-This bot fetches live GIF memes from GIPHY and delivers them instantly using the /meme command. No caching, no complexity, just memes on demand.
+```
